@@ -14,7 +14,7 @@ from cocotb_tools.runner import get_runner
 from cocotb.types import LogicArray, Logic
 
 proj_path = Path(__file__).resolve().parent
-fabric = os.getenv("FABRIC", "tiny_fabric_10x4")
+fabric = os.getenv("FABRIC", "tiny_fabric_6x4")
 
 if __name__ == "__main__":
 

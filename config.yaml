@@ -53,22 +53,22 @@ FP_OBSTRUCTIONS:
 - [expr::(0.56 * (2374)), 0, "expr::$DIE_AREA[2]", "expr::($DIE_AREA[3] - (0.56 * 112))"]
 
 MACROS:
-  tiny_fabric_10x4:
+  tiny_fabric_6x4:
     gds:
-      - dir::fabrics/tiny_fabric_10x4/macro/gf180mcuD/gds/tiny_fabric_10x4.gds
+      - dir::fabrics/tiny_fabric_6x4/macro/gf180mcuD/gds/tiny_fabric_6x4.gds
     lef:
-      - dir::fabrics/tiny_fabric_10x4/macro/gf180mcuD/lef/tiny_fabric_10x4.lef
+      - dir::fabrics/tiny_fabric_6x4/macro/gf180mcuD/lef/tiny_fabric_6x4.lef
     nl:
-      - dir::fabrics/tiny_fabric_10x4/macro/gf180mcuD/nl/tiny_fabric_10x4.nl.v
+      - dir::fabrics/tiny_fabric_6x4/macro/gf180mcuD/nl/tiny_fabric_6x4.nl.v
     instances:
-      tiny_fabric_10x4:
+      tiny_fabric_6x4:
         location: [expr::((0.46 * 120) * 3), expr::(0.68 * 1)] # expr::(0.68 * 27)
         orientation: FS
 
 ERROR_ON_PDN_VIOLATIONS: False
 
 PDN_MACRO_CONNECTIONS:
-- "tiny_fabric_10x4 VPWR VGND VPWR VGND"
+- "tiny_fabric_6x4 VPWR VGND VPWR VGND"
 
 # No extract-unique, because the power straps
 # are connected in the top-level integration

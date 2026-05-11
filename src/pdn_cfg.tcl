@@ -194,10 +194,10 @@ add_pdn_connect \
     -grid macro \
     -layers "$::env(PDN_VERTICAL_LAYER) $::env(PDN_HORIZONTAL_LAYER)"
 
-# Custom connect for tiny_fabric_10x4
+# Custom connect for tiny_fabric_6x4
 define_pdn_grid \
     -macro \
-    -instance tiny_fabric_10x4 \
+    -instance tiny_fabric_6x4 \
     -name fabric \
     -starts_with POWER \
     -halo "$::env(PDN_HORIZONTAL_HALO) $::env(PDN_VERTICAL_HALO)"

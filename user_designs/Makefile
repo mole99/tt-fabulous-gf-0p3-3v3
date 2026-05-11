@@ -1,5 +1,5 @@
 export PDK 		?= gf180mcuD
-export FABRIC 		?= tiny_fabric_10x4
+export FABRIC 		?= tiny_fabric_6x4
 export TILE_LIBRARY 	?= tiny
 
 $(info $(PDK))

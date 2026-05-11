@@ -81,7 +81,7 @@ module tt_um_fabulous_gf_26a (
     assign uio_out = fabric_uio_out;
     assign uio_oe = fabric_uio_oe;
 
-    tiny_fabric_10x4 tiny_fabric_10x4 (
+    tiny_fabric_6x4 tiny_fabric_6x4 (
         // IN/OUT is from the PoV of the fabric
 
         // clk

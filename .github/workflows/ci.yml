@@ -65,7 +65,7 @@ jobs:
     strategy:
       matrix:
         pdk: [gf180mcuD]
-        fabrics: [tiny_fabric_10x4]
+        fabrics: [tiny_fabric_6x4]
     name: Fabric (${{ matrix.fabrics }}/${{ matrix.pdk }})
     steps:
       - uses: actions/checkout@v6

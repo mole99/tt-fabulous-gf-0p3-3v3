@@ -33,11 +33,11 @@ nix-shell
 To implement the fabric, run:
 
 ```
-make tiny_fabric_10x4
+make tiny_fabric_6x4
 ```
 
 After the fabric has been implemented you can view it either in OpenROAD or KLayout by appending `-openroad` or `-klayout` to the fabric name.
-For example, to view `tiny_fabric_10x4` in OpenROAD, run: `make tiny_fabric_10x4-openroad`.
+For example, to view `tiny_fabric_6x4` in OpenROAD, run: `make tiny_fabric_6x4-openroad`.
 
 ## Implement User Designs
 

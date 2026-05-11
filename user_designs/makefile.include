@@ -1,6 +1,6 @@
 # Paths
-PDK 			?= sky130A
-FABRIC 			?= tiny_fabric_10x4
+PDK 			?= gf180mcuD
+FABRIC 			?= tiny_fabric_6x4
 TILE_LIBRARY		?= tiny
 FABULOUS_ROOT 		?= $(abspath ../../../fabrics/$(FABRIC)/macro/$(PDK)/fabulous)
 PCF_CONSTRAINTS 		?= $(abspath $(FABULOUS_ROOT)/../../../constraints.pcf)
