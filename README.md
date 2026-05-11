@@ -1,9 +1,9 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# Tiny FABulous FPGA - SKY26a
+# Tiny FABulous FPGA - GF26a
 
 - [Read the documentation for the project](docs/info.md)
-- [View the layout in your browser (SKY26a)](https://gds-viewer.tinytapeout.com/?model=https://raw.githubusercontent.com/mole99/tt-fabulous-sky-26a/refs/heads/main/gds/tt_um_fabulous_sky_26a.gds&pdk=sky130A)
+- [View the layout in your browser (GF26a)](https://gds-viewer.tinytapeout.com/?model=https://raw.githubusercontent.com/mole99/tt-fabulous-gf-26a/refs/heads/main/gds/tt_um_fabulous_gf_26a.gds&pdk=gf180mcuD)
 
 ## Requirements
 
@@ -151,7 +151,7 @@ And it will run all available test cases for the selected fabric and tile librar
 Before running the RTLG/GL simulation, enable a PDK version using ciel:
 
 ```
-ciel enable --pdk-family sky130 7b70722e33c03fcb5dabcf4d479fb0822d9251c9
+ciel enable --pdk-family gf180mcuD 1e931c9417df0478df9ee6b7289202f3e87440ab
 ```
 
 To start the RTL simulation, simply run cocotb:
