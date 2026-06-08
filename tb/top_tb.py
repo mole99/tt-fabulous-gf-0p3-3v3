@@ -150,7 +150,7 @@ if __name__ == "__main__":
         print("Error: EMULATION and GL can't be set at the same time.")
         sys.exit(1)
     
-    hdl_toplevel = "tt_um_fabulous_gf_0p3"
+    hdl_toplevel = "tt_um_fabulous_gf_0p3_3v3"
     
     tiles_path = Path(proj_path / ".." / "ip" / "fabulous-tiles")
     primitives_path = Path(tiles_path) / "primitives"
@@ -185,7 +185,7 @@ if __name__ == "__main__":
         # Add fabric netlist
         sources.append(proj_path / f'../fabrics/{fabric}/macro/{pdk}/fabulous/{fabric}.v')
     
-        sources.append(proj_path / f"../src/tt_um_fabulous_gf_0p3.sv")
+        sources.append(proj_path / f"../src/tt_um_fabulous_gf_0p3_3v3.sv")
         sources.append(proj_path / f"../ip/fabric_config/fabric_config.sv")
         sources.append(proj_path / f"../ip/fabric_bitbang/fabric_bitbang.sv")
     
