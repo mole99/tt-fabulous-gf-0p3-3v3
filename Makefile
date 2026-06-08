@@ -53,3 +53,19 @@ tt-fabulous-copy:
 	cp macro/gds/tt_um_fabulous_gf_0p3_3v3.gds gds/tt_um_fabulous_gf_0p3_3v3.gds
 	cp macro/lef/tt_um_fabulous_gf_0p3_3v3.lef lef/tt_um_fabulous_gf_0p3_3v3.lef
 .PHONY: tt-fabulous-copy
+
+sim-fabric:
+	cd tb; PDK=${PDK} SCL=${SCL} python3 fabric_tb.py
+.PHONY: sim-fabric
+
+sim-fabric-gl:
+	cd tb; GL=1 PDK=${PDK} SCL=${SCL} python3 fabric_tb.py
+.PHONY: sim-fabric-gl
+
+sim-top:
+	cd tb; PDK=${PDK} SCL=${SCL} python3 top_tb.py
+.PHONY: sim-top
+
+sim-top-gl:
+	cd tb; GL=1 PDK=${PDK} SCL=${SCL} python3 top_tb.py
+.PHONY: sim-top-gl

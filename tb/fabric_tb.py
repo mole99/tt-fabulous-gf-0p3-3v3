@@ -71,7 +71,8 @@ if __name__ == "__main__":
     else:
         # SCL models
         sources.append(Path(pdk_root) / pdk / "libs.ref" / scl / "verilog" / f"{scl}.v")
-        sources.append(Path(pdk_root) / pdk / "libs.ref" / scl / "verilog" / f"primitives.v")
+        if scl != "gf180mcu_as_sc_mcu7t3v3":
+            sources.append(Path(pdk_root) / pdk / "libs.ref" / scl / "verilog" / f"primitives.v")
         
         # Tile GL netlists
         tile_files = list(tile_library_path.glob(f'**/macro/{pdk}/nl/*.nl.v'))

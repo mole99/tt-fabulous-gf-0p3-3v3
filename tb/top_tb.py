@@ -185,7 +185,7 @@ if __name__ == "__main__":
         # Add fabric netlist
         sources.append(proj_path / f'../fabrics/{fabric}/macro/{pdk}/fabulous/{fabric}.v')
     
-        sources.append(proj_path / f"../src/tt_um_fabulous_gf_0p3_3v3.sv")
+        sources.append(proj_path / f"../src/{hdl_toplevel}.sv")
         sources.append(proj_path / f"../ip/fabric_config/fabric_config.sv")
         sources.append(proj_path / f"../ip/fabric_bitbang/fabric_bitbang.sv")
     
@@ -193,11 +193,13 @@ if __name__ == "__main__":
     else:
         # SCL models
         sources.append(Path(pdk_root) / pdk / "libs.ref" / scl / "verilog" / f"{scl}.v")
-        sources.append(Path(pdk_root) / pdk / "libs.ref" / scl / "verilog" / f"primitives.v")
+        if scl != "gf180mcu_as_sc_mcu7t3v3":
+            sources.append(Path(pdk_root) / pdk / "libs.ref" / scl / "verilog" / f"primitives.v")
 
         # We use the unpowered netlist
         sources.append(proj_path / f"../macro/nl/{hdl_toplevel}.nl.v")
 
+        """
         # Tile GL netlists
         tile_files = list(tile_library_path.glob(f'**/macro/{pdk}/nl/*.nl.v'))
         #print(f"Tile sources: {tile_files}")
@@ -205,6 +207,26 @@ if __name__ == "__main__":
         
         # Fabric GL netlist
         sources.append(proj_path / f'../fabrics/{fabric}/macro/{pdk}/nl/{fabric}.nl.v')
+        """
+        
+        # Use RTL/GL mix
+        primitives_files = list(primitives_path.glob('**/fabulous/*.v'))
+        tile_files = list(tile_library_path.glob(f'**/macro/{pdk}/fabulous/*.v'))
+
+        #print(f"Primitive sources: {primitives_files}")
+        #print(f"Tile sources: {tile_files}")
+    
+        sources.extend(primitives_files)
+        sources.extend(tile_files)
+    
+        # Add models pack
+        sources.append(tiles_path / "models_pack.v")
+
+        # Add custom cells
+        sources.append(tiles_path / "custom.v")
+
+        # Add fabric netlist
+        sources.append(proj_path / f'../fabrics/{fabric}/macro/{pdk}/fabulous/{fabric}.v')
 
         #defines["USE_POWER_PINS"] = False
 
