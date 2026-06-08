@@ -24,7 +24,7 @@ jobs:
           top_module: ${{ steps.top_module.outputs.TOP_MODULE }}
           gds_path: gds/${{ steps.top_module.outputs.TOP_MODULE }}.gds
           lef_path: lef/${{ steps.top_module.outputs.TOP_MODULE }}.lef
-          verilog_path: src/tt_um_fabulous_gf_0p3_stubs.sv
+          verilog_path: src/tt_um_fabulous_gf_0p3_3v3_stubs.sv
           pdk: gf180mcuD
 
   #precheck:

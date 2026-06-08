@@ -34,7 +34,8 @@ jobs:
       matrix:
         pdk: [gf180mcuD]
         tile_library: [tiny]
-    name: Tiles (${{ matrix.tile_library }}/${{ matrix.pdk }})
+        scl: [gf180mcu_as_sc_mcu7t3v3]
+    name: Tiles (${{ matrix.tile_library }}/${{ matrix.pdk }}/${{ matrix.scl }})
     steps:
       - uses: actions/checkout@v6
         with:
@@ -54,11 +55,11 @@ jobs:
         uses: actions/cache@v5
         with:
           path: ip/fabulous-tiles/tiles
-          key: cache-tiles-${{ matrix.tile_library }}-${{ matrix.pdk }}-${{ github.sha }}
+          key: cache-tiles-${{ matrix.tile_library }}-${{ matrix.pdk }}-${{ matrix.scl }}-${{ github.sha }}
       - name: Implement the tiles
         run: |
-          PDK=${{ matrix.pdk }} TILE_LIBRARY=${{ matrix.tile_library }} nix develop --command bash -c "cd ip/fabulous-tiles/ && make all"
-      
+          make tiles
+
   fabrics:
     runs-on: ubuntu-24.04
     needs: [tiles]
@@ -66,7 +67,8 @@ jobs:
       matrix:
         pdk: [gf180mcuD]
         fabrics: [tiny_fabric_6x4]
-    name: Fabric (${{ matrix.fabrics }}/${{ matrix.pdk }})
+        scl: [gf180mcu_as_sc_mcu7t3v3]
+    name: Fabric (${{ matrix.fabrics }}/${{ matrix.pdk }}/${{ matrix.scl }})
     steps:
       - uses: actions/checkout@v6
         with:
@@ -89,17 +91,17 @@ jobs:
         uses: actions/cache/restore@v5
         with:
           path: ip/fabulous-tiles/tiles
-          key: cache-tiles-${{ env.TILE_LIBRARY }}-${{ matrix.pdk }}-${{ github.sha }}
+          key: cache-tiles-${{ env.TILE_LIBRARY }}-${{ matrix.pdk }}-${{ matrix.scl }}-${{ github.sha }}
           fail-on-cache-miss: true
       - name: Stitch the tiles
         run: |
-          PDK=${{ matrix.pdk }} nix develop --command make ${{ matrix.fabrics }}
+          PDK=${{ matrix.pdk }} SCL=${{ matrix.scl }} nix develop --command make ${{ matrix.fabrics }}
           make ${{ matrix.fabrics }}-copy
       - name: Upload Macro Folder
         if: success() || failure()
         uses: actions/upload-artifact@v7
         with:
-          name: ${{ matrix.fabrics }}_${{ matrix.pdk }}
+          name: ${{ matrix.fabrics }}_${{ matrix.pdk }}_${{ matrix.scl }}
           path: fabrics/${{ matrix.fabrics }}/macro/${{ matrix.pdk }}/
           include-hidden-files: true
       - name: Build the User Designs

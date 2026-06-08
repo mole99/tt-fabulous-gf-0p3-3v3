@@ -1,9 +1,9 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# Tiny FABulous FPGA - GF0p3
+# Tiny FABulous FPGA - GF0p3 (3.3V version)
 
 - [Read the documentation for the project](docs/info.md)
-- [View the layout in your browser (GF0p3)](https://gds-viewer.tinytapeout.com/?model=https://raw.githubusercontent.com/mole99/tt-fabulous-gf-0p3/refs/heads/main/gds/tt_um_fabulous_gf_0p3.gds&pdk=gf180mcuD)
+- [View the layout in your browser (GF0p3 3.3V)](https://gds-viewer.tinytapeout.com/?model=https://raw.githubusercontent.com/mole99/tt-fabulous-gf-0p3-3v3/refs/heads/main/gds/tt_um_fabulous_gf_0p3_3v3.gds&pdk=gf180mcuD)
 
 ## Requirements
 

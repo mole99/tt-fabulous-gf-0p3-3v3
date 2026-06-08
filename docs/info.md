@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Tiny FABulous FPGA for GF26a.
+Tiny FABulous FPGA for GF0p3 (3.3V version).
 
 This design implements a tiny FPGA with 64 LUT4+FF. The FPGA fabric is 6x4 tiles in size, of which 4x2 are LUT4x8_ha tiles.
 The logic cells include a vertical carry-chain in upwards direction, allowing for fast additions up to 15-bits.
