@@ -125,7 +125,7 @@ jobs:
           PDK=${{ matrix.pdk }} SCL=${{ matrix.scl }} TILE_LIBRARY=${{ env.TILE_LIBRARY }} FABRIC=${{ matrix.fabrics }} nix develop --command bash -c "cd tb; python3 top_tb.py"
       - name: Set up the PDK
         run: |
-          nix develop --command ciel enable --pdk-family gf180mcuD f6bfbd4d3d23c4236ff1f36126489ee59aa35cbd
+          nix develop --command ciel enable --pdk-family gf180mcuD f6bfbd4d3d23c4236ff1f36126489ee59aa35cbd --include-libraries all
       - name: Simulate the FPGA RTL/GL (Simulation)
         run: |
           GL=1 PDK=${{ matrix.pdk }} SCL=${{ matrix.scl }} TILE_LIBRARY=${{ env.TILE_LIBRARY }} FABRIC=${{ matrix.fabrics }} nix develop --command bash -c "cd tb; python3 top_tb.py"
