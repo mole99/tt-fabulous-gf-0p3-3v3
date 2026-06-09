@@ -7,247 +7,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   FOREIGN tt_um_fabulous_gf_0p3_3v3 ;
   ORIGIN 0.000 0.000 ;
   SIZE 1440.320 BY 736.960 ;
-  PIN VDD
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER Metal4 ;
-        RECT 184.480 592.600 186.080 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 184.480 333.880 186.080 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 184.480 75.160 186.080 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 184.480 0.680 186.080 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 260.080 592.600 261.680 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 360.080 592.600 361.680 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 460.080 592.600 461.680 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 260.080 333.880 261.680 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 360.080 333.880 361.680 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 460.080 333.880 461.680 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 260.080 75.160 261.680 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 360.080 75.160 361.680 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 460.080 75.160 461.680 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 260.080 0.680 261.680 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 360.080 0.680 361.680 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 460.080 0.680 461.680 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 536.720 592.600 538.320 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 636.720 592.600 638.320 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 736.720 592.600 738.320 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 536.720 333.880 538.320 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 636.720 333.880 638.320 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 736.720 333.880 738.320 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 536.720 75.160 538.320 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 636.720 75.160 638.320 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 736.720 75.160 738.320 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 536.720 0.680 538.320 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 636.720 0.680 638.320 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 736.720 0.680 738.320 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 813.360 592.600 814.960 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 913.360 592.600 914.960 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1013.360 592.600 1014.960 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 813.360 333.880 814.960 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 913.360 333.880 914.960 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1013.360 333.880 1014.960 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 813.360 75.160 814.960 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 913.360 75.160 914.960 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1013.360 75.160 1014.960 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 813.360 0.680 814.960 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 913.360 0.680 914.960 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1013.360 0.680 1014.960 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1090.000 592.600 1091.600 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1190.000 592.600 1191.600 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1290.000 592.600 1291.600 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1090.000 333.880 1091.600 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1190.000 333.880 1191.600 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1290.000 333.880 1291.600 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1090.000 75.160 1091.600 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1190.000 75.160 1191.600 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1290.000 75.160 1291.600 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1090.000 0.680 1091.600 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1190.000 0.680 1191.600 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1290.000 0.680 1291.600 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1366.640 592.600 1368.240 667.080 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1366.640 333.880 1368.240 592.600 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1366.640 75.160 1368.240 333.880 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 1366.640 0.680 1368.240 75.160 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 20.640 7.540 23.840 733.340 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 70.640 7.540 73.840 733.340 ;
-    END
-    PORT
-      LAYER Metal4 ;
-        RECT 120.640 7.540 123.840 733.340 ;
-    END
-  END VDD
-  PIN VSS
+  PIN VGND
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
@@ -486,11 +246,252 @@ MACRO tt_um_fabulous_gf_0p3_3v3
       LAYER Metal4 ;
         RECT 125.540 7.540 128.740 733.340 ;
     END
-  END VSS
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER Metal4 ;
+        RECT 184.480 592.600 186.080 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 184.480 333.880 186.080 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 184.480 75.160 186.080 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 184.480 0.680 186.080 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 260.080 592.600 261.680 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 360.080 592.600 361.680 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 460.080 592.600 461.680 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 260.080 333.880 261.680 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 360.080 333.880 361.680 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 460.080 333.880 461.680 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 260.080 75.160 261.680 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 360.080 75.160 361.680 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 460.080 75.160 461.680 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 260.080 0.680 261.680 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 360.080 0.680 361.680 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 460.080 0.680 461.680 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 536.720 592.600 538.320 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 636.720 592.600 638.320 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 736.720 592.600 738.320 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 536.720 333.880 538.320 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 636.720 333.880 638.320 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 736.720 333.880 738.320 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 536.720 75.160 538.320 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 636.720 75.160 638.320 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 736.720 75.160 738.320 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 536.720 0.680 538.320 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 636.720 0.680 638.320 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 736.720 0.680 738.320 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 813.360 592.600 814.960 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 913.360 592.600 914.960 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1013.360 592.600 1014.960 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 813.360 333.880 814.960 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 913.360 333.880 914.960 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1013.360 333.880 1014.960 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 813.360 75.160 814.960 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 913.360 75.160 914.960 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1013.360 75.160 1014.960 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 813.360 0.680 814.960 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 913.360 0.680 914.960 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1013.360 0.680 1014.960 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1090.000 592.600 1091.600 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1190.000 592.600 1191.600 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1290.000 592.600 1291.600 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1090.000 333.880 1091.600 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1190.000 333.880 1191.600 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1290.000 333.880 1291.600 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1090.000 75.160 1091.600 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1190.000 75.160 1191.600 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1290.000 75.160 1291.600 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1090.000 0.680 1091.600 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1190.000 0.680 1191.600 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1290.000 0.680 1291.600 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1366.640 592.600 1368.240 667.080 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1366.640 333.880 1368.240 592.600 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1366.640 75.160 1368.240 333.880 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 1366.640 0.680 1368.240 75.160 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 20.640 7.540 23.840 733.340 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 70.640 7.540 73.840 733.340 ;
+    END
+    PORT
+      LAYER Metal4 ;
+        RECT 120.640 7.540 123.840 733.340 ;
+    END
+  END VPWR
   PIN clk
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 4.704000 ;
+    ANTENNADIFFAREA 0.877000 ;
     PORT
       LAYER Metal4 ;
         RECT 331.090 735.960 331.390 736.960 ;
@@ -508,6 +509,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.666400 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 323.810 735.960 324.110 736.960 ;
@@ -517,6 +519,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.666400 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 316.530 735.960 316.830 736.960 ;
@@ -526,6 +529,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.666400 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 309.250 735.960 309.550 736.960 ;
@@ -535,6 +539,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 1.332800 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 301.970 735.960 302.270 736.960 ;
@@ -544,6 +549,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 1.332800 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 294.690 735.960 294.990 736.960 ;
@@ -553,6 +559,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 1.332800 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 287.410 735.960 287.710 736.960 ;
@@ -562,6 +569,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 1.332800 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 280.130 735.960 280.430 736.960 ;
@@ -591,6 +599,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 1.332800 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 258.290 735.960 258.590 736.960 ;
@@ -600,6 +609,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 1.332800 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 251.010 735.960 251.310 736.960 ;
@@ -609,6 +619,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 1.332800 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 243.730 735.960 244.030 736.960 ;
@@ -618,6 +629,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 1.332800 ;
+    ANTENNADIFFAREA 0.438500 ;
     PORT
       LAYER Metal4 ;
         RECT 236.450 735.960 236.750 736.960 ;
@@ -666,7 +678,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_oe[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 83.570 735.960 83.870 736.960 ;
@@ -675,7 +687,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_oe[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 76.290 735.960 76.590 736.960 ;
@@ -684,7 +696,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_oe[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 69.010 735.960 69.310 736.960 ;
@@ -693,7 +705,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_oe[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 61.730 735.960 62.030 736.960 ;
@@ -702,7 +714,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_oe[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 54.450 735.960 54.750 736.960 ;
@@ -711,7 +723,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_oe[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 47.170 735.960 47.470 736.960 ;
@@ -720,7 +732,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_oe[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 39.890 735.960 40.190 736.960 ;
@@ -729,7 +741,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_oe[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 32.610 735.960 32.910 736.960 ;
@@ -738,7 +750,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 141.810 735.960 142.110 736.960 ;
@@ -747,7 +759,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 134.530 735.960 134.830 736.960 ;
@@ -756,7 +768,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 127.250 735.960 127.550 736.960 ;
@@ -765,7 +777,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 119.970 735.960 120.270 736.960 ;
@@ -774,7 +786,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_out[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 112.690 735.960 112.990 736.960 ;
@@ -783,7 +795,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_out[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 105.410 735.960 105.710 736.960 ;
@@ -792,7 +804,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 98.130 735.960 98.430 736.960 ;
@@ -801,7 +813,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uio_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 1.676100 ;
     PORT
       LAYER Metal4 ;
         RECT 90.850 735.960 91.150 736.960 ;
@@ -810,7 +822,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uo_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 5.982500 ;
     PORT
       LAYER Metal4 ;
         RECT 200.050 735.960 200.350 736.960 ;
@@ -819,7 +831,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uo_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 5.982500 ;
     PORT
       LAYER Metal4 ;
         RECT 192.770 735.960 193.070 736.960 ;
@@ -828,7 +840,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uo_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 5.982500 ;
     PORT
       LAYER Metal4 ;
         RECT 185.490 735.960 185.790 736.960 ;
@@ -837,7 +849,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uo_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 5.982500 ;
     PORT
       LAYER Metal4 ;
         RECT 178.210 735.960 178.510 736.960 ;
@@ -846,7 +858,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uo_out[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 5.982500 ;
     PORT
       LAYER Metal4 ;
         RECT 170.930 735.960 171.230 736.960 ;
@@ -855,7 +867,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uo_out[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 5.982500 ;
     PORT
       LAYER Metal4 ;
         RECT 163.650 735.960 163.950 736.960 ;
@@ -864,7 +876,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uo_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 5.982500 ;
     PORT
       LAYER Metal4 ;
         RECT 156.370 735.960 156.670 736.960 ;
@@ -873,7 +885,7 @@ MACRO tt_um_fabulous_gf_0p3_3v3
   PIN uo_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.237600 ;
+    ANTENNADIFFAREA 5.982500 ;
     PORT
       LAYER Metal4 ;
         RECT 149.090 735.960 149.390 736.960 ;
@@ -1344,11 +1356,10 @@ MACRO tt_um_fabulous_gf_0p3_3v3
       LAYER Metal1 ;
         RECT 2.240 4.300 1439.760 733.340 ;
       LAYER Metal2 ;
-        RECT 7.980 0.680 1432.340 736.310 ;
+        RECT 11.340 0.680 1432.900 736.870 ;
       LAYER Metal3 ;
-        RECT 6.810 1.380 1432.390 736.260 ;
+        RECT 11.290 1.380 1432.950 736.820 ;
       LAYER Metal4 ;
-        RECT 6.860 735.660 32.310 735.960 ;
         RECT 33.210 735.660 39.590 735.960 ;
         RECT 40.490 735.660 46.870 735.960 ;
         RECT 47.770 735.660 54.150 735.960 ;
@@ -1392,16 +1403,14 @@ MACRO tt_um_fabulous_gf_0p3_3v3
         RECT 324.410 735.660 330.790 735.960 ;
         RECT 331.690 735.660 338.070 735.960 ;
         RECT 338.970 735.660 1424.500 735.960 ;
-        RECT 6.860 733.640 1424.500 735.660 ;
-        RECT 6.860 7.240 20.340 733.640 ;
-        RECT 24.140 7.240 25.240 733.640 ;
-        RECT 29.040 7.240 70.340 733.640 ;
+        RECT 32.620 733.640 1424.500 735.660 ;
+        RECT 32.620 7.240 70.340 733.640 ;
         RECT 74.140 7.240 75.240 733.640 ;
         RECT 79.040 7.240 120.340 733.640 ;
         RECT 124.140 7.240 125.240 733.640 ;
         RECT 129.040 667.380 1424.500 733.640 ;
         RECT 129.040 7.240 184.180 667.380 ;
-        RECT 6.860 1.330 184.180 7.240 ;
+        RECT 32.620 1.330 184.180 7.240 ;
         RECT 186.380 1.330 187.480 667.380 ;
         RECT 189.680 1.330 259.780 667.380 ;
         RECT 261.980 1.330 263.080 667.380 ;

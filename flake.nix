@@ -11,7 +11,7 @@
   inputs = {
     librelane.url = "github:librelane/librelane/dev";
     librelane_plugin_fabulous = {
-      url = "github:mole99/librelane_plugin_fabulous/1.11.0";
+      url = "github:mole99/librelane_plugin_fabulous/1.12.0";
       inputs.librelane.follows = "librelane";
     };
   };
@@ -45,10 +45,6 @@
                 patches = [
                   ./disable_check.patch
                 ];
-              };
-              magic = prev.magic.override {
-                version = "8.3.660";
-                sha256 = "sha256-5Mdbiimn8bPh2LZquUgObcWRU9JyGhF0YL38Or2RfgA=";
               };
             })
           ];

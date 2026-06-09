@@ -6,7 +6,11 @@ meta:
     # Promote power pins
     +Odb.ManualMacroPlacement: Odb.FABulousPower
     
-    # TODO
+    # Add KLayout antenna checks
+    +KLayout.DRC: KLayout.Antenna
+    +KLayout.Antenna: Checker.KLayoutAntenna
+    
+    # Disable due to issues
     OpenROAD.IRDropReport: null
     Checker.YosysUnmappedCells: null
 
@@ -33,8 +37,17 @@ PDN_VWIDTH: 3.2
 PL_TARGET_DENSITY_PCT: 44 #45
 GRT_ALLOW_CONGESTION: true
 
+VDD_NETS: [VPWR]
+GND_NETS: [VGND]
+
 RT_MAX_LAYER: Metal4
 FP_PDN_MULTILAYER: False
+
+DIODE_ON_PORTS: both
+
+# Don't add output buffers,
+# can lead to antenna violations
+DESIGN_REPAIR_BUFFER_OUTPUT_PORTS: False
 
 # Width should be multiple of 0.56 (Metal2 pitch)
 # Height should be multiple of 0.56 (Metal3 pitch)

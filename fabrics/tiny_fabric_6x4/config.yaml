@@ -22,6 +22,9 @@ MAGIC_EXT_UNIQUE: notopports
 # Unfortunately needed
 GRT_ALLOW_CONGESTION: true
 
+VDD_NETS: [VPWR]
+GND_NETS: [VGND]
+
 # FABulous config
 FABULOUS_FABRIC_CONFIG: dir::tiny_fabric_6x4.csv
 FABULOUS_TILE_LIBRARY: dir::../../ip/fabulous-tiles/tiles/tiny/
