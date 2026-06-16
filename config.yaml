@@ -75,7 +75,7 @@ MACROS:
       - dir::fabrics/tiny_fabric_6x4/macro/gf180mcuD/nl/tiny_fabric_6x4.nl.v
     instances:
       tiny_fabric_6x4:
-        location: [expr::((0.46 * 120) * 3), expr::(0.68 * 1)] # expr::(0.68 * 27)
+        location: [expr::((0.46 * 80) * 3), expr::(0.68 * 1)] # expr::(0.68 * 27)
         orientation: FS
 
 ERROR_ON_PDN_VIOLATIONS: False
